@@ -1,4 +1,5 @@
 import logo from './assets/logo.svg';
+import asset4 from "./assets/home/illustration_four.png"
 import BannerImage from './components/BannerImage/BannerImage'
 import WritingCard from './components/WritingCard/WritingCard'
 import './App.css';
@@ -7,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div className="left-sidebar">
-        <BannerImage title="Illustration / Animation" image={logo}></BannerImage>
+        <BannerImage title="Illustration / Animation" image={asset4}></BannerImage>
         <BannerImage title="UX / Product Design" image={logo}></BannerImage>
       </div>
       <div className="right-sidebar">
