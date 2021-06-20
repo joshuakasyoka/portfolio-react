@@ -14,7 +14,7 @@ function HomePage() {
         <div className="LeftBar">
           <div className="Row">
           <BannerCard title="Product Design" image={imageOne} link="/about"></BannerCard>
-          <BannerCard title="Illustration" image={imageTwo} link="/about"></BannerCard>
+          <BannerCard title="Illustration" image={imageTwo} link="/writing"></BannerCard>
           </div>
           <div className="Row">
           <BannerCard title="Graphic Design" image={imageOne} link="/about"></BannerCard>
