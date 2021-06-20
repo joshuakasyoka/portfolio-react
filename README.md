@@ -1,10 +1,16 @@
 # Getting Started with Create React App
 
+## make sure have right npm version using nvm
+
+`nvm use 10.16`
+
+- If not working, you need to source the file with `source ~/.zshrc`
+- Then try again `nvm use 10.16`
+- if not, follow this: https://stackoverflow.com/questions/16904658/node-version-manager-install-nvm-command-not-found
 
 ## Getting started
 
 run `npm install`
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

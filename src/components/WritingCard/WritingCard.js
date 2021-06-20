@@ -2,8 +2,8 @@ import './WritingCard.css';
 
 function WritingCard(props) {
 
-  let title = props.title + " " + props.title
-
+  let title = props.title
+  
   return (
     <div className="wc-container">
       <img className="wc-image" src={props.image} alt={props.title}></img>
@@ -13,3 +13,4 @@ function WritingCard(props) {
 }
 
 export default WritingCard;
+
