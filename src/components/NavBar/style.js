@@ -1,9 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    border-width: 2px;
-    border-color: #F3804F;
-    border-style: solid;
     display: flex;
     flex-direction: row;
     height: 10%;
@@ -12,19 +9,18 @@ export const Container = styled.div`
 
 export const LeftSidebar = styled.div`
     border-width: 2px;
-    border-color: #F3804F;
-    border-style: solid;
     display: flex;
     flex-direction: column;
     width: 30%;
 `
 
 export const RightSidebar = styled.div`
+    border-width: 3px;
+    display: flex;
+    align-items: center;
     border-width: 2px;
     border-color: #F3804F;
     border-style: solid;
-    display: flex;
-    align-items: center;
     justify-content: center;
     width: 70%;
 `

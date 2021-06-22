@@ -1,8 +1,8 @@
-import HomePage from './components/HomePage/HomePage'
-import AboutPage from './components/AboutPage/AboutPage'
-import Article from './components/Article/Article'
+import HomePage from './pages/HomePage/HomePage'
+import AboutPage from './pages/AboutPage/AboutPage'
+import ArticlePage from './pages/ArticlePage/ArticlePage'
 // import DesignPage from './components/DesignPage/DesignPage'
-import WritingPage from './components/WritingPage/WritingPage'
+import WritingPage from './pages/WritingPage/WritingPage'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -10,12 +10,10 @@ function App() {
     <Router>
         <Switch>
             <Route exact path='/' component={HomePage} />
-            <Route path='/about' component={AboutPage} />
+            <Route exact path='/about' component={AboutPage} />
             {/* <Route path='/design' component={DesignPage} /> */}
-            <Route path='/writing' component={WritingPage} />
-            <Route path="/writing/:id" render={(props) => (
-                <Article {...props} isAuthed={true} />
-            )}/>
+            <Route exact path='/writing' component={WritingPage} />
+            <Route path='/writing/:articleId' component={ArticlePage} /> 
         </Switch>
     </Router>
   );

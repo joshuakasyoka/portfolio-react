@@ -1,4 +1,4 @@
-import gif from '../../assets/home/greendots.gif';
+import gif from '../../assets/images/greendots.gif';
 import {
     Container,
     LeftSidebar,
