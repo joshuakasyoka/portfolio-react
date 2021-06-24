@@ -37,15 +37,18 @@ export const DesignBar = styled.div`
   height: 70%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   border-width: 2px;
   border-color: #F3804F;
   border-style: solid;
+  justify-content: center;
   `
 
 export const Row = styled.div`
   display: flex;
   flex-direction: row;
+  align-items: space-between;
+  align-content: space-between;
+  margin: 40px 30px 40px 30px;
   `
 
 export const AboutBar = styled.div`
@@ -55,6 +58,7 @@ export const AboutBar = styled.div`
   border-color: #F3804F;
   border-style: solid;
   height: 30%;
+  width: 100%;
   `
 
 export const RightBar = styled.div`
@@ -66,6 +70,11 @@ export const RightBar = styled.div`
   border-color: #F3804F;
   border-style: solid; 
 `
+export const Writing = styled.p`
+  margin: 20px 20px 20px 20px;
+  font-family: 'Roboto';
+  text-align: justify;
+  `
 
 
 

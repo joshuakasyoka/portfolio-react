@@ -22,6 +22,8 @@ function ArticlePage() {
     return item.id === articleId
   })
 
+  let articleText = article.text.split('\n').map(str => <p>{str}</p>);
+
   return (
     <Page>
     <div className="Article">
@@ -29,7 +31,7 @@ function ArticlePage() {
         <Img src={require(`../../assets/images/${article.src}`).default} alt={article.title}></Img>
         <Column>
         <Title>{article.title}</Title>
-        <Text>{article.text}</Text>
+        <Text>{articleText}</Text>
         </Column>
     </Row>
     </div>

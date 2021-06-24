@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-// import fonts from '../../assets/images/fonts.css';
+import fonts from '../../assets/images/fonts.css';
 
 export const Title = styled.h1`
   display: flex;
@@ -18,10 +18,11 @@ export const Img = styled.img`
   height: 45%;
   width: 45%;
 `
+
 export const LinkContainer = styled(Link)`
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: row;
-  
 `
+
