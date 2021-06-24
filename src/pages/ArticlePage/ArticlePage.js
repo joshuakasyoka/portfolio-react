@@ -11,10 +11,13 @@ import {
   Row,
   Column,
   Text,
-  Title
+  Title,
+  LinkContainer
 } from "./style"
 
 function ArticlePage() {
+
+  window.scrollTo(0, 0); 
 
   let { articleId } = useParams();
 
@@ -26,6 +29,7 @@ function ArticlePage() {
 
   return (
     <Page>
+    <LinkContainer to="/">Home</LinkContainer>
     <div className="Article">
     <Row>
         <Img src={require(`../../assets/images/${article.src}`).default} alt={article.title}></Img>

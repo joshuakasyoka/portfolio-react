@@ -14,11 +14,11 @@ export const Title = styled.h1`
 export const Img = styled.img`
   margin-top: 20px;
   margin-bottom: 20px;
-  height: 60%;
-  width: 60%;
+  height: 80%;
+  width: 80%;
 `
 export const LinkContainer = styled(Link)`
-  width: 340px;
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;

@@ -1,4 +1,4 @@
-import WritingCard from '../../components/WritingCard/WritingCard';
+import HomepageWC from '../../components/HomepageWC/HomepageWC';
 import BlueIcon from '../../components/BlueIcon/BlueIcon';
 import NavBar from '../../components/NavBar/NavBar';
 import ImageOne from '../../assets/images/icon-01.svg';
@@ -27,8 +27,9 @@ import {
 function HomePage() {
 
   let writingCards = writing.map((article) => {
-    return <WritingCard id={article.id} title={article.title} image={article.src}></WritingCard>
+    return <HomepageWC id={article.id} title={article.title} image={article.src}></HomepageWC>
   })
+  writingCards = writingCards.slice(0, 3)
 
 
   return (
