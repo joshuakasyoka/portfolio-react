@@ -8,17 +8,16 @@ export const Container = styled.div`
 `
 
 export const LeftSidebar = styled.div`
-    border-width: 2px;
+    border-width: 5px;
     display: flex;
     flex-direction: column;
     width: 30%;
 `
 
 export const RightSidebar = styled.div`
-    border-width: 3px;
     display: flex;
     align-items: center;
-    border-width: 2px;
+    border-width: 5px;
     border-color: #F3804F;
     border-style: solid;
     justify-content: center;
@@ -26,7 +25,7 @@ export const RightSidebar = styled.div`
 `
 
 export const TitleBox = styled.div`
-    border-width: 2px;
+    border-width: 5px;
     border-color: #F3804F;
     border-style: solid;
     display: flex;
@@ -43,10 +42,6 @@ export const Title = styled.h1`
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
     margin-left: 10px;
-    &:hover {
-        font-size: 50px;
-        font-family: 'Roboto', sans-serif;
-        margin-left: 10px;
-        color: #B3C34D;
-    }
+    color: #F3804F;
+    font-weight: bold;
 `

@@ -8,7 +8,8 @@ export const Title = styled.h1`
   justify-content: left;
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
-  margin-left: 5%;
+  /* margin-left: 5%; */
+  color: #F3804F;
 `
 
 export const Img = styled.img`
@@ -22,5 +23,13 @@ export const LinkContainer = styled(Link)`
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  margin-left: 20%;
   `
+
+export const Text = styled.p`
+    font-family: 'Roboto', sans-serif;
+    color: #F3804F;
+    font-size: 15px;
+    margin-right: 60px;
+    `

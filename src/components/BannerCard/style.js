@@ -10,6 +10,10 @@ export const Title = styled.h1`
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
   margin-left: 5%;
+  border-width: 2px;
+  border-color: #F3804F;
+  border-style: solid; 
+  border-radius: 10pc;
 `
 
 export const Img = styled.img`

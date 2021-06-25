@@ -5,7 +5,6 @@ import {
     RightSidebar,
     TitleBox,
     Title,
-    InnerImage
 } from './style'
 
 function NavBar(props) {
@@ -21,7 +20,7 @@ function NavBar(props) {
                 </TitleBox>
             </LeftSidebar>
             <RightSidebar>
-                <InnerImage src={gif} alt="green-dots"></InnerImage>
+                
             </RightSidebar>
         </Container>  
     )

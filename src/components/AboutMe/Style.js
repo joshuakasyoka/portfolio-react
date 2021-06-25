@@ -17,8 +17,8 @@ export const Title = styled.h1`
 export const Img = styled.img`
   margin-top: 20px;
   margin-bottom: 20px;
-  height: 45%;
-  width: 45%;
+  height: 40%;
+  width: 40%;
 `
 
 export const LinkContainer = styled(Link)`
@@ -36,11 +36,13 @@ export const Text = styled.p`
   font-family: 'Roboto', sans-serif;
   color: #F3804F;
   padding-top: 15px;
+  padding: 30px 30px 30px 30px;
 `
 
 export const Content = styled.div`
   display: flex;
   flex-direction: row;
+  align-items: center;
 `
 
 

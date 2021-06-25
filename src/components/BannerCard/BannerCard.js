@@ -5,6 +5,7 @@ import {
 } from "./style";
 
 function BannerCard(props) {
+
   return (
     <LinkContainer to={props.link}>
         <Title>{props.title}</Title>
@@ -14,3 +15,4 @@ function BannerCard(props) {
 }
 
 export default BannerCard;
+

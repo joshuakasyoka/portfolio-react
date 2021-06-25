@@ -7,7 +7,7 @@ import {
     Content
   } from "./Style";
 
-function BlueIcon(props) {
+function AboutMe(props) {
 
     const [iconImage, setIconImage] = useState(props.image1);
 
@@ -23,17 +23,17 @@ function BlueIcon(props) {
       <LinkContainer to={props.link}>
           <Title>{props.title}</Title>
           <Content>
-          <Text>{props.text}</Text>
           <Img
             src={iconImage}
             onMouseOver={toggleImage}
             onMouseOut={toggleImage}
             alt={props.title}>
           </Img>
+          <Text>{props.text}</Text>
           </Content>
       </LinkContainer>
     );
   }
   
-export default BlueIcon;
+export default AboutMe;
 
