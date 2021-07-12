@@ -8,7 +8,7 @@ export const Container = styled.div`
 `
 
 export const LeftSidebar = styled.div`
-    border-width: 5px;
+    border-width: 3px;
     display: flex;
     flex-direction: column;
     width: 30%;
@@ -17,7 +17,7 @@ export const LeftSidebar = styled.div`
 export const RightSidebar = styled.div`
     display: flex;
     align-items: center;
-    border-width: 5px;
+    border-width: 3px;
     border-color: #F3804F;
     border-style: solid;
     justify-content: center;
@@ -25,7 +25,7 @@ export const RightSidebar = styled.div`
 `
 
 export const TitleBox = styled.div`
-    border-width: 5px;
+    border-width: 3px;
     border-color: #F3804F;
     border-style: solid;
     display: flex;

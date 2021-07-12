@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Page = styled.div`
   display: flex;
   flex-direction: column;
-  border-width: 5px;
+  border-width: 3px;
   border-color: #F3804F;
   border-style: solid;
   margin: 100px 200px 100px 200px;
@@ -17,7 +17,7 @@ export const SubNav = styled.div`
   align-items: center;
   justify-content: space-around;
   color: #F3804F;
-  border-width: 5px;
+  border-width: 3px;
   border-color: #F3804F;
   border-style: solid; 
 `
@@ -36,11 +36,12 @@ export const LeftBar = styled.div`
   `
   
 export const DesignBar = styled.div`
-  width: 100%;
+  
   height: 70%;
   display: flex;
   flex-direction: column;
-  border-width: 5px;
+  border-left: 3px;
+  border-right: 3px;
   border-color: #F3804F;
   border-style: solid;
   justify-content: center;
@@ -57,11 +58,11 @@ export const Row = styled.div`
 export const AboutBar = styled.div`
   display: flex;
   flex-direction: row;
-  border-width: 5px;
+  border-left: 3px;
+  border-right: 3px;
   border-color: #F3804F;
   border-style: solid;
-  height: 410px;
-  width: 100%;
+  height: 420px;
   align-items: center;
   justify-content: center;
   align-content: center;
@@ -72,7 +73,7 @@ export const RightBar = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-width: 5px;
+  border-width: 3px;
   border-color: #F3804F;
   border-style: solid; 
 `
@@ -89,7 +90,7 @@ padding: 10px;
 align-items: center;
 justify-content: space-around;
 color: #F3804F;
-border-width: 5px;
+border-width: 3px;
 border-color: #F3804F;
 border-style: solid; 
 `
@@ -100,5 +101,9 @@ border-color: #F3804F;
 border-style: solid; 
 border-radius: 10pc;
 padding: 3px 6px 3px 6px;
+  &:hover {
+    color: #FFFFFF;
+    background-color: #F3804F;
+  }
 `
 

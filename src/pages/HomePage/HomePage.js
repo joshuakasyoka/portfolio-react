@@ -38,11 +38,11 @@ function HomePage() {
 
   return (
     <Page>
-      <NavBar titleOne="JOSHUA" titleTwo="GREEN"></NavBar>
+      <NavBar titleOne="Joshua" titleTwo="Green"></NavBar>
       <SubNav>
-          <Link to="/about">ABOUT</Link>
-          <Link to="/design">DESIGN</Link> 
-          <Link to="/writing">WRITING</Link>
+          <Link to="/about">About</Link>
+          <Link to="/design">Design</Link> 
+          <Link to="/writing">Writing</Link>
       </SubNav>
       <MainSection>
       <LeftBar>

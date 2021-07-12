@@ -12,6 +12,10 @@ export const Title = styled.h1`
   border-style: solid; 
   border-radius: 2pc;
   padding: 3px 6px 3px 6px;
+  &:hover {
+    color: #FFFFFF;
+    background-color: #F3804F;
+  }
 `
 
 export const Img = styled.img`
